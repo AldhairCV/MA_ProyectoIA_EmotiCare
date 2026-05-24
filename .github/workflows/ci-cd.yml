@@ -19,7 +19,7 @@ jobs:
       - name:  Instalar Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.0'
+          flutter-version: '3.24.0'
 
       - name: Instalar dependencias
         run: flutter pub get
@@ -57,7 +57,7 @@ jobs:
       - name:  Instalar Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.0'
+          flutter-version: '3.24.0'
 
       - name:  Dependencias
         run: flutter pub get
